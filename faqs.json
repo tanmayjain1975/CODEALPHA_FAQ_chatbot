@@ -1,0 +1,352 @@
+[
+  {
+    "id": 1,
+    "category": "Programming",
+    "question": "What is a programming language?",
+    "answer": "A programming language is a formal way to give instructions to a computer. It provides rules and vocabulary for writing software.",
+    "alternatives": ["Explain programming languages", "How do people communicate instructions to computers?", "What is computer programming written in?"]
+  },
+  {
+    "id": 2,
+    "category": "Programming",
+    "question": "What is an algorithm?",
+    "answer": "An algorithm is a finite, ordered set of steps for solving a problem or completing a task. A recipe is a familiar everyday example.",
+    "alternatives": ["Define an algorithm", "What are the steps to solve a problem called?", "Explain algorithms in computer science"]
+  },
+  {
+    "id": 3,
+    "category": "Programming",
+    "question": "What is a variable in programming?",
+    "answer": "A variable is a named reference used by a program to store or access a value. The value may be changeable or, in some languages, read-only.",
+    "alternatives": ["Explain variables in code", "How does a program store a value?", "What does a variable do?"]
+  },
+  {
+    "id": 4,
+    "category": "Programming",
+    "question": "What is the difference between a compiler and an interpreter?",
+    "answer": "A compiler translates source code into another form, often machine code, before execution. An interpreter executes instructions at runtime; many language implementations combine both approaches.",
+    "alternatives": ["Compiler versus interpreter", "How do compilers differ from interpreters?", "Does an interpreter translate code line by line?"]
+  },
+  {
+    "id": 5,
+    "category": "Programming",
+    "question": "What is object-oriented programming?",
+    "answer": "Object-oriented programming organizes software around objects that combine data and behavior. Common concepts include encapsulation, inheritance, abstraction, and polymorphism.",
+    "alternatives": ["Explain OOP", "What are objects and classes in programming?", "What are the main object-oriented concepts?"]
+  },
+  {
+    "id": 6,
+    "category": "Python",
+    "question": "What is Python?",
+    "answer": "Python is a high-level, general-purpose programming language known for readable syntax and a large ecosystem. It is used in automation, web development, data analysis, and many other fields.",
+    "alternatives": ["Explain Python", "What do you mean by Python?", "Tell me about Python programming"]
+  },
+  {
+    "id": 7,
+    "category": "Python",
+    "question": "What is a Python list?",
+    "answer": "A Python list is an ordered, mutable collection. It can hold values of different types and supports operations such as indexing, appending, and removing items.",
+    "alternatives": ["How do lists work in Python?", "What is a list in Python used for?", "How can I store multiple values in Python?", "How do I keep several values together in Python?"]
+  },
+  {
+    "id": 8,
+    "category": "Python",
+    "question": "What is a Python dictionary?",
+    "answer": "A Python dictionary stores key-value pairs. Keys are unique within a dictionary, and values are retrieved by looking up their keys.",
+    "alternatives": ["Explain dictionaries in Python", "How do key value pairs work in Python?", "What is a dict?"]
+  },
+  {
+    "id": 9,
+    "category": "Python",
+    "question": "What is a Python function?",
+    "answer": "A function is a reusable block of Python code defined with def, or as a short expression with lambda. It can accept inputs and return a result.",
+    "alternatives": ["How do I define a function in Python?", "Explain Python functions", "What does def mean in Python?"]
+  },
+  {
+    "id": 10,
+    "category": "Python",
+    "question": "What is a Python virtual environment?",
+    "answer": "A virtual environment is an isolated Python installation for a project. It helps keep that project's packages separate from other projects and the system Python.",
+    "alternatives": ["Why use venv in Python?", "How can Python packages be isolated per project?", "What does a virtualenv do?"]
+  },
+  {
+    "id": 11,
+    "category": "Java",
+    "question": "What is Java?",
+    "answer": "Java is a class-based, object-oriented programming language. Java programs commonly run on the Java Virtual Machine, which allows compatible bytecode to run on different platforms.",
+    "alternatives": ["Explain the Java programming language", "What is Java used for?", "Tell me about Java"]
+  },
+  {
+    "id": 12,
+    "category": "Java",
+    "question": "What is the Java Virtual Machine?",
+    "answer": "The Java Virtual Machine (JVM) runs Java bytecode and provides services such as memory management. Different JVM implementations support running compatible Java programs on different systems.",
+    "alternatives": ["Explain JVM", "What runs Java bytecode?", "What does the Java virtual machine do?"]
+  },
+  {
+    "id": 13,
+    "category": "Java",
+    "question": "What is the difference between JDK, JRE, and JVM?",
+    "answer": "The JVM executes Java bytecode. The JRE traditionally bundles a JVM and runtime libraries to run Java applications. The JDK includes development tools, such as a compiler, as well as runtime components.",
+    "alternatives": ["JDK vs JRE vs JVM", "What do the Java development kit and runtime mean?", "Which Java kit is used to compile programs?"]
+  },
+  {
+    "id": 14,
+    "category": "Java",
+    "question": "What is a Java class?",
+    "answer": "A Java class is a blueprint that defines a type's data and behavior. Objects are instances created from classes.",
+    "alternatives": ["Explain classes and objects in Java", "How do I create a class in Java?", "What is an object in Java?"]
+  },
+  {
+    "id": 15,
+    "category": "Java",
+    "question": "What is garbage collection in Java?",
+    "answer": "Java garbage collection automatically reclaims memory used by objects that are no longer reachable by the program. The JVM manages when collection occurs.",
+    "alternatives": ["How does Java free unused memory?", "Explain Java garbage collector", "What is GC in Java?"]
+  },
+  {
+    "id": 16,
+    "category": "Artificial Intelligence",
+    "question": "What is artificial intelligence?",
+    "answer": "Artificial intelligence (AI) is a broad field concerned with building systems that perform tasks associated with capabilities such as perception, reasoning, language understanding, or decision-making.",
+    "alternatives": ["Define AI", "What does artificial intelligence mean?", "Explain intelligent computer systems"]
+  },
+  {
+    "id": 17,
+    "category": "Artificial Intelligence",
+    "question": "What is natural language processing?",
+    "answer": "Natural language processing (NLP) is an area of AI that enables computers to work with human language, for example by classifying text, extracting information, or answering questions.",
+    "alternatives": ["Explain NLP", "How do computers process human language?", "What is language processing in AI?"]
+  },
+  {
+    "id": 18,
+    "category": "Artificial Intelligence",
+    "question": "What is a chatbot?",
+    "answer": "A chatbot is software that interacts with people through conversation, usually using text or voice. It may follow rules, retrieve information, or use machine-learning models.",
+    "alternatives": ["How does a chat bot work?", "What is conversational software?", "Explain chatbot applications"]
+  },
+  {
+    "id": 19,
+    "category": "Artificial Intelligence",
+    "question": "What is computer vision?",
+    "answer": "Computer vision is a field of computing that helps systems interpret images and video, for tasks such as object recognition, image classification, and visual inspection.",
+    "alternatives": ["How do computers understand images?", "Define computer vision", "What is image recognition in AI?"]
+  },
+  {
+    "id": 20,
+    "category": "Artificial Intelligence",
+    "question": "What is the difference between AI and automation?",
+    "answer": "Automation executes predefined processes with limited variation. AI techniques can help systems interpret inputs, learn patterns, or make predictions; AI may be part of an automated process, but the terms are not interchangeable.",
+    "alternatives": ["AI versus automation", "Is automation the same as artificial intelligence?", "How are AI and automated tasks different?"]
+  },
+  {
+    "id": 21,
+    "category": "Machine Learning",
+    "question": "What is machine learning?",
+    "answer": "Machine learning is a field of AI in which algorithms learn patterns from data to make predictions or decisions, rather than relying only on explicitly written rules.",
+    "alternatives": ["Define machine learning", "How do computers learn from data?", "Explain ML in simple terms"]
+  },
+  {
+    "id": 22,
+    "category": "Machine Learning",
+    "question": "What is supervised learning?",
+    "answer": "Supervised learning trains a model using examples that include both inputs and known target outputs. The model learns to predict outputs for new inputs.",
+    "alternatives": ["Explain supervised machine learning", "What does labeled training data mean?", "How does learning with examples and answers work?"]
+  },
+  {
+    "id": 23,
+    "category": "Machine Learning",
+    "question": "What is unsupervised learning?",
+    "answer": "Unsupervised learning looks for structure in data without supplied target labels. Clustering and dimensionality reduction are common examples.",
+    "alternatives": ["Explain unsupervised machine learning", "What is learning from unlabeled data?", "How does clustering fit into machine learning?"]
+  },
+  {
+    "id": 24,
+    "category": "Machine Learning",
+    "question": "What is overfitting in machine learning?",
+    "answer": "Overfitting happens when a model fits details or noise in its training data too closely and performs poorly on new data. More representative data, regularization, and validation can help reduce it.",
+    "alternatives": ["Why does an ML model fail on new data?", "Explain overfitting", "What is the opposite of generalizing in machine learning?"]
+  },
+  {
+    "id": 25,
+    "category": "Machine Learning",
+    "question": "What is a training dataset?",
+    "answer": "A training dataset is the collection of examples used to fit a machine-learning model. Separate validation or test data is commonly used to assess performance.",
+    "alternatives": ["What data trains an ML model?", "Explain training data", "What is a dataset used for machine learning?"]
+  },
+  {
+    "id": 26,
+    "category": "Web Development",
+    "question": "What is HTML?",
+    "answer": "HTML (HyperText Markup Language) is the standard markup language used to structure content on web pages, such as headings, links, forms, and images.",
+    "alternatives": ["What does HTML stand for?", "Explain the structure of a web page", "What is HTML used for?"]
+  },
+  {
+    "id": 27,
+    "category": "Web Development",
+    "question": "What is CSS?",
+    "answer": "CSS (Cascading Style Sheets) describes how HTML content is presented, including layout, colors, typography, and responsive behavior.",
+    "alternatives": ["What does CSS do?", "How are web pages styled?", "Explain cascading style sheets"]
+  },
+  {
+    "id": 28,
+    "category": "Web Development",
+    "question": "What is JavaScript used for?",
+    "answer": "JavaScript is a programming language widely used to add interactivity to web pages. It also runs on servers and in other environments.",
+    "alternatives": ["Explain JavaScript in web development", "How do websites become interactive?", "What can I build with JavaScript?"]
+  },
+  {
+    "id": 29,
+    "category": "Web Development",
+    "question": "What is an API?",
+    "answer": "An application programming interface (API) is a defined way for software components to request services or exchange data. A web API commonly exposes operations over HTTP.",
+    "alternatives": ["What does API mean?", "How do applications communicate with each other?", "Explain a web API"]
+  },
+  {
+    "id": 30,
+    "category": "Web Development",
+    "question": "What is the difference between frontend and backend development?",
+    "answer": "Frontend development builds the parts of an application users interact with. Backend development implements server-side logic, data access, and other services that support the application.",
+    "alternatives": ["Frontend vs backend", "What is client side and server side development?", "Which part of a website runs on the server?"]
+  },
+  {
+    "id": 31,
+    "category": "Databases",
+    "question": "What is a database?",
+    "answer": "A database is an organized collection of data managed so it can be stored, retrieved, and updated. Database software provides ways to query and maintain that data.",
+    "alternatives": ["Define database", "Where does an application store structured information?", "What is a database system?"]
+  },
+  {
+    "id": 32,
+    "category": "Databases",
+    "question": "What is SQL?",
+    "answer": "SQL (Structured Query Language) is a language commonly used to define, query, and modify data in relational database systems.",
+    "alternatives": ["What does SQL stand for?", "How do I query a relational database?", "Explain structured query language"]
+  },
+  {
+    "id": 33,
+    "category": "Databases",
+    "question": "What is the difference between SQL and NoSQL databases?",
+    "answer": "Relational SQL databases organize data into tables with defined relationships and commonly use SQL. NoSQL is a broad category that includes document, key-value, column-family, and graph databases with different data models.",
+    "alternatives": ["SQL versus NoSQL", "Are relational and document databases different?", "When would a database use tables or documents?"]
+  },
+  {
+    "id": 34,
+    "category": "Databases",
+    "question": "What is a primary key?",
+    "answer": "A primary key is a column or set of columns that uniquely identifies each row in a relational table. It must identify rows without ambiguity.",
+    "alternatives": ["How is a row uniquely identified in a database?", "Explain primary keys", "What is the key of a database table?"]
+  },
+  {
+    "id": 35,
+    "category": "Databases",
+    "question": "What is a database index?",
+    "answer": "A database index is an auxiliary data structure that can speed up some queries by helping the database find rows efficiently. Indexes use storage and can add work to data updates.",
+    "alternatives": ["How do database indexes work?", "Why would I index a table?", "What speeds up database searches?"]
+  },
+  {
+    "id": 36,
+    "category": "Computer Networks",
+    "question": "What is a computer network?",
+    "answer": "A computer network is a set of connected devices that exchange data and share resources using communication links and protocols.",
+    "alternatives": ["Define computer networking", "How do computers communicate with each other?", "What is a network in computing?"]
+  },
+  {
+    "id": 37,
+    "category": "Computer Networks",
+    "question": "What is an IP address?",
+    "answer": "An IP address is a numerical address used to identify an interface on an IP network and help route packets. IPv4 and IPv6 are the two widely used versions.",
+    "alternatives": ["What does an IP address do?", "Explain internet protocol addresses", "How is a device addressed on a network?"]
+  },
+  {
+    "id": 38,
+    "category": "Computer Networks",
+    "question": "What is DNS?",
+    "answer": "The Domain Name System (DNS) is a distributed naming system that helps translate domain names, such as example.com, into records including IP addresses.",
+    "alternatives": ["What does DNS stand for?", "How are website names looked up?", "Explain domain name resolution"]
+  },
+  {
+    "id": 39,
+    "category": "Computer Networks",
+    "question": "What is the difference between TCP and UDP?",
+    "answer": "TCP provides a reliable, ordered byte stream between endpoints. UDP sends independent datagrams without TCP's delivery and ordering guarantees, which can suit applications that handle timing or recovery themselves.",
+    "alternatives": ["TCP versus UDP", "Which network protocol guarantees delivery?", "How do TCP and UDP differ?"]
+  },
+  {
+    "id": 40,
+    "category": "Computer Networks",
+    "question": "What is HTTP?",
+    "answer": "HTTP (Hypertext Transfer Protocol) is an application-layer protocol used for communication on the web. HTTPS is HTTP protected by TLS.",
+    "alternatives": ["What does HTTP do?", "Explain web communication protocol", "What is the difference between HTTP and HTTPS?"]
+  },
+  {
+    "id": 41,
+    "category": "Operating Systems",
+    "question": "What is an operating system?",
+    "answer": "An operating system manages a computer's hardware and provides common services for applications. Examples include Windows, Linux, macOS, Android, and iOS.",
+    "alternatives": ["What does an OS do?", "Explain operating systems", "What software manages computer hardware?"]
+  },
+  {
+    "id": 42,
+    "category": "Operating Systems",
+    "question": "What is a process in an operating system?",
+    "answer": "A process is a running instance of a program, with its own execution state and allocated resources. The operating system manages and schedules processes.",
+    "alternatives": ["What is a running program called?", "Explain OS processes", "How does an operating system manage applications in execution?"]
+  },
+  {
+    "id": 43,
+    "category": "Operating Systems",
+    "question": "What is the difference between a process and a thread?",
+    "answer": "A process is an executing program with its own resources and address space. A thread is an execution path within a process; threads in one process typically share its memory and resources.",
+    "alternatives": ["Process vs thread", "How are threads different from processes?", "What is a thread in an operating system?"]
+  },
+  {
+    "id": 44,
+    "category": "Operating Systems",
+    "question": "What is virtual memory?",
+    "answer": "Virtual memory gives each process an address space managed by the operating system and hardware. It can map addresses to physical memory and, when configured, storage-backed pages.",
+    "alternatives": ["How does virtual memory work?", "Explain memory management by an operating system", "What is paging in an OS?"]
+  },
+  {
+    "id": 45,
+    "category": "Operating Systems",
+    "question": "What is a file system?",
+    "answer": "A file system defines how an operating system organizes and manages files and directories on storage. Examples include NTFS, ext4, and APFS.",
+    "alternatives": ["How are files organized on a computer?", "What does a file system do?", "Explain computer storage directories"]
+  },
+  {
+    "id": 46,
+    "category": "Cybersecurity",
+    "question": "What is cybersecurity?",
+    "answer": "Cybersecurity is the practice of protecting systems, networks, and data from unauthorized access, disruption, or damage using technical and organizational safeguards.",
+    "alternatives": ["Define cyber security", "How can digital systems be protected?", "What does information security mean?"]
+  },
+  {
+    "id": 47,
+    "category": "Cybersecurity",
+    "question": "What is phishing?",
+    "answer": "Phishing is a deceptive attempt to get people to reveal sensitive information or take unsafe actions, often through emails, messages, or websites that impersonate trusted sources.",
+    "alternatives": ["How do phishing attacks trick people?", "What is a fake login email called?", "Explain phishing messages"]
+  },
+  {
+    "id": 48,
+    "category": "Cybersecurity",
+    "question": "What is encryption?",
+    "answer": "Encryption transforms data using a cryptographic algorithm and key so that it is not readable without the appropriate decryption process. It helps protect data confidentiality.",
+    "alternatives": ["How does encryption protect information?", "What is encrypted data?", "Explain cryptographic encryption"]
+  },
+  {
+    "id": 49,
+    "category": "Cybersecurity",
+    "question": "What is multi-factor authentication?",
+    "answer": "Multi-factor authentication (MFA) requires two or more different kinds of evidence to verify an identity, such as something known, something possessed, or a biometric characteristic.",
+    "alternatives": ["What does MFA mean?", "Why use two-factor authentication?", "How does multi step login verification work?"]
+  },
+  {
+    "id": 50,
+    "category": "Cybersecurity",
+    "question": "What makes a strong password?",
+    "answer": "A strong password is long, unique to one account, and difficult to guess. A password manager can create and store unique passwords; use multi-factor authentication when available.",
+    "alternatives": ["How can I create a secure password?", "What is a good password?", "How do I protect my online accounts?"]
+  }
+]

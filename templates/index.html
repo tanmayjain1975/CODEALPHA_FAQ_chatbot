@@ -1,0 +1,97 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="theme-color" content="#f5f7fb">
+  <meta name="description" content="Ask the FAQ Assistant a question about technology and computer science.">
+  <title>FAQ Assistant</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=DM+Sans:wght@400;500;600;700&family=Manrope:wght@500;600;700;800&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.2/css/all.min.css">
+  <link rel="stylesheet" href="{{ url_for('static', filename='css/style.css') }}">
+</head>
+<body>
+  <main class="app-shell">
+    <header class="topbar">
+      <a class="brand" href="/" aria-label="FAQ Assistant home">
+        <span class="brand-mark" aria-hidden="true"><i class="fa-solid fa-sparkles"></i></span>
+        <span class="brand-name">FAQ<span>ly</span></span>
+      </a>
+      <div class="topbar-note"><span class="shield-icon"><i class="fa-solid fa-lock"></i></span> Private and ready to help</div>
+    </header>
+
+    <section class="chat-layout" aria-label="FAQ Assistant chat">
+      <aside class="intro-panel">
+        <div class="eyebrow"><span class="eyebrow-dot"></span> YOUR KNOWLEDGE COMPANION</div>
+        <h1>Answers that<br>make <span>things clearer.</span></h1>
+        <p class="intro-copy">A little curiosity goes a long way. Ask about technology and computer science, and get a clear answer in seconds.</p>
+        <div class="topic-list" aria-label="Available topics">
+          <span><i class="fa-solid fa-code"></i> Programming</span>
+          <span><i class="fa-solid fa-brain"></i> AI &amp; machine learning</span>
+          <span><i class="fa-solid fa-globe"></i> Web &amp; networks</span>
+          <span><i class="fa-solid fa-shield-halved"></i> Security</span>
+        </div>
+        <div class="privacy-note"><i class="fa-solid fa-circle-check"></i><span>Answers come from a curated FAQ library.<br>No external AI services are used.</span></div>
+      </aside>
+
+      <section class="chat-card">
+        <header class="chat-header">
+          <div class="assistant-avatar" aria-hidden="true">
+            <svg viewBox="0 0 48 48" role="img"><path d="M24 7a3 3 0 0 1 3 3v2.2a13 13 0 0 1 10.8 10.7H40a2 2 0 1 1 0 4h-2v3.2A10.9 10.9 0 0 1 27.1 41H16.8A10.8 10.8 0 0 1 6 30.1v-7A10.9 10.9 0 0 1 16.9 12H23v-2a1 1 0 0 1 1-1Zm-9.5 16a2.5 2.5 0 1 0 0 5 2.5 2.5 0 0 0 0-5Zm19 0a2.5 2.5 0 1 0 0 5 2.5 2.5 0 0 0 0-5ZM17 33a2 2 0 0 0 0 4h14a2 2 0 0 0 0-4H17Z"/></svg>
+          </div>
+          <div class="assistant-heading">
+            <h2>FAQ Assistant</h2>
+            <p><span class="online-dot"></span> Online <span class="header-divider">·</span> Usually replies instantly</p>
+          </div>
+          <button class="clear-button" id="clear-chat" type="button" title="Clear conversation" aria-label="Clear conversation">
+            <i class="fa-solid fa-trash-can" aria-hidden="true"></i><span>Clear chat</span>
+          </button>
+        </header>
+
+        <div class="conversation" id="conversation" aria-live="polite" aria-label="Conversation">
+          <div class="date-divider"><span>YOUR CHAT</span></div>
+          <article class="message-row bot-row">
+            <div class="message-avatar" aria-hidden="true"><i class="fa-solid fa-sparkles"></i></div>
+            <div class="message-content">
+              <div class="message-meta"><span>FAQ Assistant</span><time class="message-time"></time></div>
+              <div class="message-bubble bot-bubble">
+                <p>Hi there! 👋 I’m your FAQ Assistant. Ask me anything about technology or computer science, and I’ll find the most relevant answer.</p>
+              </div>
+              <div class="welcome-suggestions">
+                <span class="suggestion-label">TRY ASKING</span>
+                <div class="suggestion-list" id="suggestions" aria-label="Suggested questions">
+                  <span class="suggestion-loading">Loading ideas…</span>
+                </div>
+              </div>
+            </div>
+          </article>
+        </div>
+
+        <div class="typing-row" id="typing-indicator" aria-hidden="true">
+          <div class="message-avatar small-avatar" aria-hidden="true"><i class="fa-solid fa-sparkles"></i></div>
+          <div class="typing-bubble"><span></span><span></span><span></span><em>Thinking</em></div>
+        </div>
+
+        <form class="composer" id="chat-form">
+          <label class="sr-only" for="question-input">Your question</label>
+          <textarea id="question-input" rows="1" maxlength="1000" placeholder="Ask a question..." autocomplete="off"></textarea>
+          <div class="composer-footer">
+            <span class="input-hint"><i class="fa-regular fa-lightbulb"></i> Be curious — I’m listening</span>
+            <div class="send-area">
+              <span class="key-hint">ENTER <span>to send</span></span>
+              <button class="send-button" id="send-button" type="submit" aria-label="Send message">
+                <i class="fa-solid fa-arrow-up" aria-hidden="true"></i>
+              </button>
+            </div>
+          </div>
+        </form>
+        <div class="chat-footer"><span>Powered by NLP-based FAQ matching</span><span>Made for curious minds <i class="fa-regular fa-heart"></i></span></div>
+      </section>
+    </section>
+    <footer class="page-footer">Clear answers, one question at a time <span>✦</span></footer>
+  </main>
+  <script src="{{ url_for('static', filename='js/script.js') }}" defer></script>
+</body>
+</html>
